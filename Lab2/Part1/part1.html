@@ -76,7 +76,7 @@
         clear: left;
         padding: 40px 0;
         background: #c13832;
-        box-shadow: inset 0 3px 2px rgba(0,0,0,0.5),
+        box-shadow: inset 0 3px 2px rgba(0, 0, 0, 0.5),
                     inset 0 -3px 2px rgba(0,0,0,0.5);
       }
 
@@ -127,10 +127,18 @@
 
       <div class="further-info">
         <a href="https://www.mozilla.org/en-US/firefox/new/">
-          <img src="./images/firefox_logo-only_RGB.png" alt="This is a Firefox logo">
+          <img src="./images/firefox_logo-only_RGB.png"
+               srcset="./images/firefox_logo_120x.png 120w,
+                       ./images/firefox_logo-only_RGB.png 400w" 
+               sizes="(max-width: 600px) 120px, 400px" 
+               alt="This is a Firefox logo">
         </a>
         <a href="https://www.mozilla.org/">
-          <img src="./images/mozilla-dinosaur-head.png" alt="This is a head of a Dinosaur">
+          <img src="./images/mozilla-dinosaur-head.png" 
+               srcset="./images/mozilla-dinosaur-head_120x.png 120w,
+                       ./images/mozilla-dinosaur-head.png 400w"
+               sizes="(max-width: 600px) 120px, 400px"
+               alt="This is a head of a Dinosaur">
         </a>
         <a href="https://addons.mozilla.org/">
           <img src="./images/firefox-addons.jpg" alt="This is a Firefox logo">
@@ -142,7 +150,12 @@
       </div>
 
       <div class="red-panda">
-        <img src="./images/red-panda.jpg" alt="This is am image of a baby red panda">
+        <picture>
+          <source media="(max-width: 600px)" srcset="./images/red-panda_600px.png">
+
+          <img src="./images/red-panda.jpg"  alt="A red panda">
+        </picture>
+        
       </div>
 
     </main>
