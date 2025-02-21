@@ -23,4 +23,10 @@ div {
   align-items: center;
   color: white;
   text-shadow: black;
+  margin: auto;
+  background: linear-gradient(bottom right, rgba(0,0,0,0)0%, rgba(0,0,0,0.2)30%, rgba(0,0,0,0.2)100%);
+  box-shadow: 2px 2px 5px black, 
+            inset -2px -2px 5px black,
+            inset 2px 2px 5px white ;
+  
 }  
