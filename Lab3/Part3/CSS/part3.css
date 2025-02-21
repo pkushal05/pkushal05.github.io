@@ -109,16 +109,17 @@ a[href^="http"] {
     display: inline-flex;
     align-items: center;
 }
-
+*/
 a[href^="http"]::after {
-    content: url(../image/external-link-52.png);
+    content: url(../image/2_image.png);
     margin: 0;
-    padding: 0;
-    transform: scale(0.15);
+    padding-left: 2px;
+    width: 1px;
+    height: 0.5px;
     vertical-align: middle;
     
 }
-*/
+
 li {
     line-height: 1.45rem;
 }
@@ -127,3 +128,22 @@ ul, ol {
     letter-spacing: 0.8px;
     word-spacing: 2px;
 }
+
+nav {
+    font-size: larger;
+}
+
+nav ul li {
+    display: block;
+    text-align: center;
+    margin: 25px;
+    padding: 10px;  /* Increased padding for more space inside */
+    width: 18rem;   /* Increased width */
+    height: 5rem;   /* Increased height */
+    border: 2px solid rgb(145, 26, 26);
+    font-size: 2rem;  /* Increase font size if the list contains text */
+}
+nav ul li > a {
+    text-decoration: none;
+}
+
