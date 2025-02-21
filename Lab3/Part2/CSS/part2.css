@@ -8,6 +8,14 @@
 html {
     font-family: sans-serif;
   }
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
   
 div {
   border: 1px solid rgb(196, 0, 0);
@@ -22,11 +30,10 @@ div {
   justify-content: center;
   align-items: center;
   color: white;
-  text-shadow: black;
-  margin: auto;
+  text-shadow: 2px 2px 5px black;
+  position: relative;
   background: linear-gradient(bottom right, rgba(0,0,0,0)0%, rgba(0,0,0,0.2)30%, rgba(0,0,0,0.2)100%);
   box-shadow: 2px 2px 5px black, 
-            inset -2px -2px 5px black,
-            inset 2px 2px 5px white ;
-  
+            inset -2px -2px 5px rgba(0,0,0,0.5),
+            inset 2px 2px 5px rgb(255, 255, 255, 0.5);
 }  
