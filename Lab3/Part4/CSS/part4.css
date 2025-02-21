@@ -27,6 +27,8 @@ img {
     margin: 0 auto;
     padding: 0 20px;
     max-width: 980px;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
 }
   
 nav {
@@ -56,12 +58,23 @@ nav a {
 
 .feature {
     width: 200px;
+    
 }
 
 nav ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
 }
 
+article img {
+    float: left;
+    padding: 20px;
+}
+/*
+article, aside {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+*/
