@@ -1,0 +1,22 @@
+html {
+    font-family: sans-serif;
+  }
+  
+  /* Your CSS below here */
+div {
+  width: 200px;
+  height: 190px;
+  border-radius: 5%;
+  margin: auto;
+  display: flex;
+  border: 1px solid rgb(242, 69, 69);
+  align-items: center;
+  background-color: red;
+  font-size: 1.5rem;
+  box-shadow:  
+  3px 3px 10px rgba(0, 0, 0, 0.2),  /* Standard shadow for raised effect */
+  inset 3px 3px 5px rgba(255, 255, 255, 0.3),  /* Soft white inset shadow (top-left) */
+  inset -3px -3px 5px rgba(0, 0, 0, 0.3);  /* Soft black inset shadow (bottom-right) */
+
+
+}  
