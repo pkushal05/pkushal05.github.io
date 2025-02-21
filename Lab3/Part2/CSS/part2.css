@@ -1,8 +1,14 @@
+/*
+  Name: Kushal Patel
+  File: Assignment 3, Part 2
+  Date: 20th Feb, 2025
+  Desc: Creating a box
+*/
+
 html {
     font-family: sans-serif;
   }
   
-  /* Your CSS below here */
 div {
   width: 200px;
   height: 190px;
