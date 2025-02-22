@@ -54,6 +54,9 @@ nav a {
     list-style: none;
     margin: 0;
     padding: 0;
+   display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1px;
 }
 
 .feature {
@@ -71,10 +74,3 @@ article img {
     float: left;
     padding: 20px;
 }
-/*
-article, aside {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-
-}
-*/
