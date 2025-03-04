@@ -59,7 +59,7 @@ header, footer {
     font-size: 10px;
 }
 body {
-    font-family: 'Libre Baskerville', serif;
+    font-family: Libre_Baskerville, serif; /* small change to fontface call - DP 25 Feb 2025 */
     font-size: 1rem;
     line-height: 1.45rem;
     letter-spacing: 0.8px;
