@@ -1,0 +1,57 @@
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    body {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .lab-boxes {
+        width: 80%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .grid-links {
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
+
+    .link-button {
+        padding: 12px 20px;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .link-button:hover {
+        transform: none;
+        box-shadow: none;
+    }
+
+    .lab1,
+    .lab2,
+    .lab3,
+    .lab4,
+    .lab5 {
+        gap: 20px;
+    }
+}

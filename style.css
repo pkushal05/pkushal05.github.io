@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&display=swap');
+
+/* Global variables */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background-color: #536878;
+    --primary-text-color: #536878;
+    --header-color:  #EAE0C8;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-family: "Big Shoulders Stencil", sans-serif;
+}
+
+p {
+    font-size: 1.4rem;
+    font-family: "Big Shoulders Stencil", sans-serif;
+
+}
+
+h2 {
+    font-size: 2.4rem;
+    font-family: "Big Shoulders Stencil", sans-serif;
+
+
+}
+
+/* Utility class */
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: var(--background-color);
+    max-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: var(--header-color);
+    gap: 80px;
+    
+}
+
+header {
+    text-align: center;
+}
+
+.link-button{
+    background: var(--primary-text-color);
+    border-radius: 8px;
+    font-weight: 600;
+    color: #EAE0C8;
+    padding: 10px 15px;
+    text-align: center; 
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.link-button:hover {
+    background: #bda367;
+    color: var(--primary-text-color); 
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.hover-effect:hover {
+    box-shadow: 0 0 15px #966d0d ;
+    transform: scale(1.05);
+}
+
+.lab-boxes {
+    color: var(--primary-text-color);
+    width: 20%;
+    height: 300px;
+    border: 2px solid var(--background-color);
+    border-radius: 10px;
+    margin-left: 10px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    transition: all ease-in 0.2s;
+}
+
+.grid-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 53px;
+    column-gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--header-color);
+}
+
+.container {
+    width: 100%;
+    height: 350px;
+    background-color: #EAE0C8;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+/* Labs section */
+
+.lab5 {
+    margin-right: 10px;
+    padding-bottom: 72px;
+}
