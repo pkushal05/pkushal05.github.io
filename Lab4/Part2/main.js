@@ -1,3 +1,9 @@
+/*
+    Name: Kushal Patel
+    File: Assignment 4, Part 2
+    Date: 25th March, 2025
+    Desc: Image Gallery
+*/
 const displayedImage = document.querySelector('.displayed-img');
 const thumbBar = document.querySelector('.thumb-bar');
 
