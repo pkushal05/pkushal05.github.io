@@ -1,3 +1,11 @@
+/*
+    Name: Kushal Patel
+    File: Assignment 4, Part 3
+    Date: 25th March, 2025
+    Desc: Object Building practice
+*/
+
+
 // setup canvas
 
 const canvas = document.querySelector("canvas");
