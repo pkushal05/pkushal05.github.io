@@ -5,7 +5,6 @@
     Desc: Object Building practice
 */
 
-
 // setup canvas
 
 const canvas = document.querySelector("canvas");
