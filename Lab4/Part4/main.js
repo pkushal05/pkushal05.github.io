@@ -1,3 +1,10 @@
+/*
+    Name: Kushal Patel
+    File: Assignment 4, Part 4
+    Date: 25th March, 2025
+    Desc: Bouncing ball features
+*/
+
 // set up canvas
 
 const canvas = document.querySelector("canvas");
@@ -18,14 +25,21 @@ function randomRGB() {
   return `rgb(${random(0, 255)},${random(0, 255)},${random(0, 255)})`;
 }
 
-class Ball {
+class Shape {
+    constructor(x, y, velX, velY) {
+        this.x = x;
+        this.y = y;
+        this.velX = velX;
+        this.velY = velY;
+    }
+}
+
+class Ball extends Shape {
   constructor(x, y, velX, velY, color, size) {
-    this.x = x;
-    this.y = y;
-    this.velX = velX;
-    this.velY = velY;
+    super(x, y, velX, velY)
     this.color = color;
     this.size = size;
+    this.exists = true;
   }
 
   draw() {
