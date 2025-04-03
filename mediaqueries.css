@@ -1,3 +1,10 @@
+/*
+    Name: Kushal Patel
+    File: HomePage for assignments
+    Date: 3 March, 2025
+    Desc: This is the mediaquery for a screen size of 600px and less.
+*/
+
 @media only screen and (max-width: 600px) {
     h1 {
         font-size: 2rem;

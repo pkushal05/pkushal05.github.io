@@ -179,7 +179,7 @@ function updateBallCount(changeNumber) {
 }
 
 
-const evilCircle = new EvilCircle(10,20);
+const evilCircle = new EvilCircle(10, 20);
 
 function loop() {
     ctx.fillStyle = "rgba(0, 0, 0, 0.25)";
@@ -188,8 +188,8 @@ function loop() {
     for (const ball of balls) {
         if (ball.exists)
             ball.draw();
-            ball.update();
-            ball.collisionDetect();
+        ball.update();
+        ball.collisionDetect();
     }
 
     evilCircle.draw();
