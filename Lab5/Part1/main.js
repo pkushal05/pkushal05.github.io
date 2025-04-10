@@ -1,3 +1,10 @@
+/*
+    Name: Kushal Patel
+    File: Assignment 5
+    Date: 10th April, 2025
+    Desc: Accessibility troubleshooting
+*/
+
 // functionality for showing/hiding the comments section
 
 const showHideBtn = document.querySelector('.show-hide');
